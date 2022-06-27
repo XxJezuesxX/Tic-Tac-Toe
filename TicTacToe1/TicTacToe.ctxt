@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\ \n\ Instantiate\ board\ to\ be\ a\ 3\ by\ 3\ char\ array\ of\ spaces.\n\ Set\ player\ to\ be\ 'X'.\n
+comment2.params=board
+comment2.target=void\ switchTurn(char[][])
+comment2.text=\n\ Switches\ the\ current\ player\ from\ X\ to\ O,\ or\ O\ to\ X.\n
+comment3.params=board
+comment3.target=boolean\ won(char[][])
+comment3.text=\n\ Returns\ true\ if\ the\ current\ player\ has\ won\ the\ game.\n\ Three\ in\ a\ row,\ column\ or\ either\ diagonal.\n\ Otherwise,\ return\ false.\n
+comment4.params=board
+comment4.target=boolean\ stalemate(char[][])
+comment4.text=\n\ Returns\ true\ if\ there\ are\ no\ places\ left\ to\ move\n
+comment5.params=
+comment5.target=char\ getPlayer()
+comment6.params=board
+comment6.target=void\ print(char[][])
+comment7.params=s\ board\ player
+comment7.target=boolean\ play(java.lang.String,\ char[][],\ char)
+comment7.text=\ \n\ If\ s\ represents\ a\ valid\ (-\ no\ replacing\ text,\ empty\ space\ \=\=>\ empty\ space)\ move,\ add\ the\ current\ player's\ symbol\ (X/O)\ to\ the\ board\ \n\ \ \ \ \ \ \ and\ return\ true.\n\ Otherwise\ return\ false.\n
+comment8.params=p\ board
+comment8.target=boolean\ isPositionTaken(java.lang.String,\ char[][])
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+comment9.text=\ \n\ Step\ 6\:\ Main\ Method\ for\ Final\ Step\ -\ Delete\ your\ main\ method\ \n\ and\ uncomment\ this\ one.\ \n\ Runs\ the\ game\ by\ getting\ input\ from\ the\ user,\ making\ the\ \n\ appropriate\ moves,\ and\ prints\ who\ won\ or\ if\ it\ was\ a\ stalemate.\ \n
+numComments=10
